@@ -161,10 +161,10 @@ class ACard extends LitElement {
     this._hasSpeechSynthesis = true;
 
     // In Chrome?
-    let voice = speechSynthesis.getVoices().filter((voice) => voice.name === 'Google 日本語')[0];
+    let voice = speechSynthesis.getVoices().filter((voice) => voice.name === 'Google 普通话')[0];
     if (voice) return voice;
     // On a Mac?
-    voice = speechSynthesis.getVoices().filter((voice) => voice.name === 'Kyoko')[0];
+    voice = speechSynthesis.getVoices().filter((voice) => voice.name === 'Kyoko')[0]; // NEED TO FIX
     if (voice) return voice;
 
     // I can't find a voice that reads Japanese on Windows
