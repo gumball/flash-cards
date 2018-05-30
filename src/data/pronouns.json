@@ -1,0 +1,18 @@
+[
+  {"en": "I, me", "cn": "我", "say": "wǒ"},
+  {"en": "we, us (pl.)", "cn": "我们", "say": "wǒmen"},
+  {"en": "you", "cn": "你", "say": "nǐ"},
+  {"en": "you (pl.)", "cn": "你们", "say": "nǐmen"},
+  {"en": "he, him", "cn": "他", "say": "tā"},
+  {"en": "she, her", "cn": "她", "say": "tā"},
+  {"en": "they (masculine form)", "cn": "他们", "say": "tāmen"},
+  {"en": "they (feminine form)", "cn": "她们", "say": "tāmen"},
+  {"en": "here, this", "cn": "这 (这儿)", "say": "zhè ( zhèr)"},
+  {"en": "there, that", "cn": "那 (那儿)", "say": "nà (nàr)"},
+  {"en": "where", "cn": "哪（哪儿）", "say": "nǎ (nǎr)"},
+  {"en": "who", "cn": "谁", "say": "shéi"},
+  {"en": "what, why", "cn": "什么", "say": "shěnme"},
+  {"en": "how many, how much", "cn": "多少", "say": "duōshǎo"},
+  {"en": "a few, how many", "cn": "几", "say": "jǐ"},
+  {"en": "how", "cn": "怎么", "say": "zěnme"}
+]

@@ -198,7 +198,7 @@ class ACard extends LitElement {
     }
     var msg = new SpeechSynthesisUtterance();
     msg.text = this.question;
-    msg.lang = 'jp';
+    msg.lang = 'cn-ZH';
     msg.voice = this._voice;
     window.speechSynthesis.speak(msg);
   }

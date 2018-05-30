@@ -106,11 +106,11 @@ function pickCardFromCategories(cards, stats, categories, showSettings) {
 
   let filteredCards;
   if (showSettings === 'onlyNew') {
-    filteredCards = cardsForCategory.filter(card => statsForCategory[card.jp] === undefined);
+    filteredCards = cardsForCategory.filter(card => statsForCategory[card.cn] === undefined);
   } else if (showSettings === 'mostlyRight') {
-    filteredCards = cardsForCategory.filter(card => statsForCategory[card.jp] && statsForCategory[card.jp].right > statsForCategory[card.jp].wrong);
+    filteredCards = cardsForCategory.filter(card => statsForCategory[card.cn] && statsForCategory[card.cn].right > statsForCategory[card.cn].wrong);
   } else if (showSettings === 'mostlyWrong') {
-    filteredCards = cardsForCategory.filter(card => statsForCategory[card.jp] && statsForCategory[card.jp].right < statsForCategory[card.jp].wrong);
+    filteredCards = cardsForCategory.filter(card => statsForCategory[card.cn] && statsForCategory[card.cn].right < statsForCategory[card.cn].wrong);
   } else {
     // This includes 'all' or like, invalid settings.
     filteredCards = cardsForCategory;
